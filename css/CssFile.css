@@ -1,0 +1,240 @@
+/*start header*/
+header
+{
+    height: 100px;
+    background-color: rgb(221, 186, 166);
+    position: relative;
+}
+
+header .container{
+    width: auto;
+    margin: auto;
+
+}
+header .logo .img1{
+    margin-left: 20px;
+    float: left;
+}
+ 
+header nav ul{
+    list-style-type: none;
+    margin:0px 450px;    
+    overflow: hidden;
+    margin-top: 40px;
+    position: absolute;
+    float: right;
+    
+}
+header nav ul li{
+   display: inline;
+}
+header nav ul li a{
+text-decoration: none;
+margin: 0px 20px;
+color: rgb(63, 63, 63);
+font-size: 15px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bold;
+
+}
+
+header nav ul li a:hover{
+    color: #F9F9F2;
+}
+
+header .slider1{
+background-image: url('flower2.jpg');   
+width: 100%;
+height: 500px;
+background-size: cover;
+overflow: hidden;
+animation: slider 20s infinite ;
+position: relative;
+}
+@keyframes slider{
+    30%{background-image: url('../image/lavender 1.jpg');}
+    50%{background-image: url('../image/nature.jpg');  }
+    75%{ background-image: url('../image/spring-bird.jpg'); }
+    100%{ background-image: url('../image/lavender 1.jpg'); }
+    }
+div.slider1 .trans-background{
+    width: 100%;
+    height: 100%;
+    background-color: #81914F;
+    position: absolute;
+    opacity: 20% ;
+    
+    }
+
+    div.slider1 .container{
+        font-size: 40px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        width: 100%;
+        color:rgb(255, 255, 255) ;
+        margin: 200px 500px;
+        position: absolute;
+    }
+/*End header*/
+
+
+/*Start Main*/
+
+main{
+    margin:600px 50px 200px 70px ;
+    min-height: 400px;
+    
+}
+/* Flower image*/
+main .image{
+    list-style-type: none;
+    overflow: hidden;
+
+}
+main .image li{
+    display: inline-block;
+    margin: 0px 60px;  
+}
+
+
+main .image .trans-imgbackground{
+    width: 200px;
+    height: 150px;
+    background-color: #81914F;
+    position: absolute;
+    top: 700px;
+    left:150px ;
+    margin: 0px 20px;
+    opacity: 10% ;
+     
+}
+
+/* Flower name*/
+main .flower-name{
+    list-style-type: none;
+    overflow: hidden;
+}
+main .flower-name li{
+    display: inline-block;
+    margin: 0px 60px;
+    background-color:rgb(221, 186, 166);
+    width: 200px;
+    text-align: center;
+}
+main .flower-name li a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    color:rgb(63, 63, 63);
+    font-weight: normal;
+
+    
+}
+
+main .flower-name li a:hover{
+    color:#F9F9F2 ;
+    background-color: rgb(63, 63, 63);
+    width: 200px;
+    padding-bottom: 1%;
+
+
+}
+/*Contact*/
+main .contact{
+    width: 100%;
+    height: 400px;
+    background-color:rgb(63, 63, 63);
+    margin-top: 200px;
+    overflow: hidden;
+    color: #F9F9F2 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main .contact .details{
+  padding: 20px; 
+  width: 400px;
+  text-align: justify;
+  
+
+}
+/*Form*/
+
+main .contact form{
+    width: 30%;
+    float: right;
+    padding: 20px 20px 20px 20px;
+    margin-left: 30px;
+    background-color: rgb(231, 231, 226);
+    margin-bottom:10px;
+    color:rgb(63, 63, 63);
+    
+}
+.l1 ,.l2,.l3{
+    margin:0px 0px 10px 20px;
+}
+
+main .contact form .input1 ,.input2{ 
+    width: 232px;
+    height: 20px;
+    margin:0px 0px 10px 20px;
+    background-color: rgb(223, 223, 217);
+}
+
+main .contact form  textarea{
+    background-color: rgb(223, 223, 217);
+    margin:0px 0px 10px 20px;
+
+}
+main .contact form .b1{
+    margin:0px 20px 10px 20px;
+    background-color: rgb(63, 63, 63);
+    color:#F9F9F2 ;
+}
+
+#hiddenMessage{
+    margin: 100px 250px;
+    font-size: 35px;
+    color: rgb(238, 81, 112);
+    
+}
+
+/*End Main*/
+
+/*Start footer*/
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    
+    
+}
+/*font awesom*/
+footer .info .awesom{
+    list-style-type: none;
+    margin-left: 600px;
+}
+footer .info .awesom li{
+    display: inline-block;
+    
+    
+
+}
+footer .info .fab{
+    color:#F9F9F2;
+    font-size: 30px;
+    margin:  20px 10px 0px 10px;
+    
+}
+/*Copyright */
+footer .copyright{
+    height: 15px;
+    background-color:  rgb(221, 186, 166);
+    padding:8px 10px 10px;
+    
+}
+footer .copyright .copyright-text{
+margin-left: 41%;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: small;
+color: rgb(63, 63, 63);
+
+}

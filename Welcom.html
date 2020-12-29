@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Template</title>
+    <!--import Normalize library-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--import Font Awesom-->
+    <link rel="stylesheet" href="css/all.css">
+    <!--import Css-file-->
+    <link rel="stylesheet" href="css/CssFile.css">
+   
+</head>
+<body>
+    
+<!--(A)start header-->
+
+    <header>
+     <nav>
+         <div class="container ">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Archive</a></li>
+                <li><a href="#" onclick="signup ()">Sign up</a></li>
+                <li><a href="#cont1">Contact</a></li>
+            </ul>
+        </div>
+        </nav>
+
+        <div class="logo"><img src="image/logo.png" width="100px" height="100px" class="img1"></div>
+
+        <div class="slider1">
+            <div class="trans-background"></div>
+            <div class="container">
+                Nature is pleased with simplicity...
+            </div>
+        </div>
+
+    </header>
+
+
+<!--(A)End header-->
+
+<!--(B)start content-->
+
+
+<main>
+    <!--Image -->
+    <ul class="image">
+        <li><img src="image\lavender 1.jpg" alt="not found" width="200px" height="150px"> <div class="trans-imgbackground"></div></li>
+        <li><img src="image\tulip1.jpg" alt="not found" width="200px" height="150px"></div></li>
+        <li><img src="image\lotus1.jpg" alt="not found" width="200px" height="150px"></div></li>
+        <li><img src="image\rose1.jpg" alt="not found" width="200px" height="150px"></div></li>
+    </ul>
+   <!--flower type-->
+    <ul class="flower-name">
+       <li><a href="https://en.wikipedia.org/wiki/Lavandula" target="_blanck" >Lavendor</a></li>
+       <li><a href="https://en.wikipedia.org/wiki/Tulip" target="_blanck" >Tulip</a></li>
+       <li><a href="https://en.wikipedia.org/wiki/Nelumbo_nucifera" target="_blanck" >Lotus</a></li>
+       <li><a href="https://en.wikipedia.org/wiki/Rose" target="_blanck" >Rose</a></li>
+   </ul>
+   
+<!--Contactt me-->
+   <div class="contact" id="cont1">
+    <form > 
+        <label class="l1" >Name</label>
+        <br>
+        <input type="text" class="input1" required> 
+        <br>
+        <label class="l2">Email</label>
+        <br>
+        <input type="email" class="input2" required> 
+        <br>
+        <label class="l3">Message</label>
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br><br>
+        <button type="submit" class="b1" onclick="message()"> Contact Me</button>
+        
+    </form>
+
+       <div class="details">
+           <h2>Contact Me</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla non ante in ipsum convallis faucibus. Nunc eu consequat lorem. Morbi eu lacus sed velit lobortis eleifend at ac magna. Suspendisse nibh metus, facilisis ac tellus in, porttitor vulputate dui.</p>
+       </div>
+       <p id="hiddenMessage" style="display: none" >Thank you!for your Message</p>
+   </div>
+</main>
+
+<!--(B)End content-->
+
+<!--(C)start footer-->
+
+<footer>
+    <div class ="info">
+        <ul class="awesom">
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.linkedin.com/home" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+   
+    <div class="copyright"><span class="copyright-text">2020&copy;Maha ALabsi. All Rights Reserved</span></div>
+
+</footer>
+<!--(C)End footer-->
+
+<!--import javaScript-file-->
+<script src="Js/JsFile.js"></script>
+</body>
+</html>
